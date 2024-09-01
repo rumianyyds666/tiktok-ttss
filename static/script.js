@@ -1,4 +1,4 @@
-const ENDPOINT = 'https://tiktok-ttss.rumianyyds666.dev'
+const ENDPOINT = 'https://tiktok-tts.weilnet.workers.dev.dev'
 
 const TEXT_BYTE_LIMIT = 3000
 const textEncoder = new TextEncoder()
