@@ -1,4 +1,4 @@
-const ENDPOINT = 'https://tiktok-tts.rumianyyds666.dev'
+const ENDPOINT = 'https://tiktok-ttss.rumianyyds666.dev'
 
 const TEXT_BYTE_LIMIT = 3000
 const textEncoder = new TextEncoder()
@@ -17,11 +17,11 @@ window.onload = () => {
         } else {
             console.error(`${resp.data.meta.dc} (age ${resp.data.meta.age} minutes) is unable to provide service`)
             setError(
-                `Service not available${resp.data.message && resp.data.message.length > 1 ? ` (<b>"${resp.data.message}"</b>)` : ''}, try again later or check the <a href='https://github.com/Weilbyte/tiktok-tts'>GitHub</a> repository for more info`
+                `Service not available${resp.data.message && resp.data.message.length > 1 ? ` (<b>"${resp.data.message}"</b>)` : ''}, try again later or check the <a href='https://github.com/rumianyyds666/tiktok-ttss'>GitHub</a> repository for more info`
                 )
         }
     } else {
-        setError('Error querying API status, try again later or check the <a href=\'https://github.com/Weilbyte/tiktok-tts\'>GitHub</a> repository for more info')
+        setError('Error querying API status, try again later or check the <a href=\'https://github.com/rumianyyds666/tiktok-ttss\'>GitHub</a> repository for more info')
     }  
 }
 
